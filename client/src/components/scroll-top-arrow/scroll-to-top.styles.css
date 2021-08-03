@@ -1,0 +1,35 @@
+.scrollTop {
+  height: 3rem;
+  width: 3rem;
+  color: white !important;
+  background: linear-gradient(to left top, #ff4800, #ec0000) !important;
+  border-radius: 50%;
+  position: fixed;
+  display: block;
+  bottom: 20px;
+  right: 30px;
+  transition: all 0.2s linear;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+  justify-content: center;
+}
+
+.scroll-arrow {
+  padding: 12px 17px;
+}
+
+.scrollTop:hover {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

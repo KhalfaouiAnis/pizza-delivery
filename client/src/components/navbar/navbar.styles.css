@@ -1,0 +1,33 @@
+.nav-link,
+.navbar-brand {
+  color: rgb(92, 88, 88) !important;
+  cursor: pointer;
+}
+
+.badge {
+  background-color: rgb(0, 165, 194) !important;
+  color: #fff !important;
+}
+
+.navbar {
+  height: 3rem !important;
+}
+
+sup {
+  transition: all 0.3s ease-out;
+  height: 1rem !important;
+  width: 1rem !important;
+}
+
+.logo > img {
+  font-family: "Open Sans", sans-serif !important;
+  color: brown !important;
+  margin-top: 4rem;
+  height: 6rem !important;
+  width: 6rem !important;
+}
+
+.small-icon {
+  height: 1rem !important;
+  width: 1rem !important;
+}
