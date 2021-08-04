@@ -87,6 +87,24 @@ input {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
+.login {
+  background-image: url("./assets/images/login.jpg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 89.7vh;
+}
+
+.login-container {
+  margin-top: 5rem !important;
+}
+
+.register {
+  background-image: url("./assets/images/register-bg.svg");
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 89.7vh;
+}
+
 /* Animations */
 
 .shake-btn {

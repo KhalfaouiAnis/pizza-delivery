@@ -34,10 +34,10 @@ export default function Registerscreen() {
   }
 
   return (
-    <div data-aos="zoom-in">
+    <div className="register" data-aos="zoom-in">
       <div className="row justify-content-center">
-        <div className="col-md-4 text-center shadow-lg">
-          <h4 className="mt-5">Let's create your account</h4>
+        <div className="col-md-3 mt-5 p-3 mb-5 text-center bg-white rounded shadow-lg">
+          <h4 className="mt-5">Sign Up</h4>
           {error && <Error error={error} />}
           {registerError && <Error error={registerError} />}
           {success && <Success success="Your account is Created 🥳" />}

@@ -27,10 +27,10 @@ export default function Loginscreen({ history }) {
   }
 
   return (
-    <div data-aos="zoom-in">
+    <div className="login" data-aos="zoom-in">
       <div className="row justify-content-center">
-        <div className="col-md-4 text-center shadow-lg p-3 mb-5 bg-white rounded">
-          <h4 className="mt-4">Login to your account</h4>
+        <div className="col-md-3 mt-5 text-center login-container shadow-lg p-3 mb-5 bg-white rounded">
+          <h4 className="mt-4">Sign In</h4>
           {error && <Error error={error} />}
           <div>
             <input
